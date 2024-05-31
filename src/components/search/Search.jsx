@@ -93,7 +93,7 @@ const Search = () => {
                     <img src={product.images[0].image} alt="" className="w-full h-full object-cover shadow" />
                   </div>
                   <div className="flex flex-col justify-evenly px-5 w-full">
-                    <span className="text-sm">{product.subcategories.subcat_name}</span>
+                    <span className="text-sm">{product?.subcategories?.subcat_name}</span>
                     <h2 className="font-bold text-lg capitalize">{product.product_name}</h2>
                     <div className="flex items-center justify-between">
                       <div className="flex gap-3 font-semibold">
